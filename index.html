@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.72.0">
+  <title>Portfolio</title>
+
+  <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/album/">
+
+
+
+  <!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://bootswatch.com/5/cyborg/bootstrap.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src = "https://kit.fontawesome.com/5f8951e26e.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/afa85b25dc.js" crossorigin="anonymous"></script>
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+  <header>
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white">About</h4>
+            <p class="text-muted">Experienced Software Developer with expertise in design, testing and maintenance of software systems.
+               Proficient in various platforms, languages, and embedded systems. Able to effectively self-manage independent projects,
+               as well as collaborate as part of a productive team.
+              </p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white">Contact</h4>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white"><a href="https://twitter.com/brozzimo?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @brozzimo</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></a></li>
+              <li><a href="https://facebook.com/olaniyiatanda/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="https://linkedin.com/in/olaniyi-atanda-097761219" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> </a></li>
+              <li><a href="https://github.com/Olaniyiatanda/"target ="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+         
+          <strong><img src="image/profilepicture.jpg" class="d-block w-10" alt="img-fluid"></strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="font-weight-light">Olaniyi Atanda</h1>
+          <p class="lead text-muted"> Junior Software Developer.</p>
+          <p>
+            <!--Modal button trigger-->
+            <button class="btn btn-primary my-2"type= "button" data-bs-toggle ="modal" data-bs-target="#skillsModal">
+              My Skills
+
+            </button>
+            <!--Begin modal-->
+            <div class="modal fade" id="skillsModal" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered"role="document">
+                <div class="modal-content rounded-6 shadow">
+                  <div class="modal-body p-5">
+                    <h2 class="modal-title"id ="skillsModalLabel">
+                      My skills
+                      </h2>
+                      <ul class="container-fluid">
+                        <li class="row text-center my-4 gap-4">
+                          <i class= "fab fa-html5 fa-3x col-2"></i>
+                          <div class="col 6 text-center">
+                            <h5 class="mb-0">HTML </h5>
+                             
+                          </div>
+
+
+                        </li>
+                        <li>
+                          <li class="row text-center my-4 gap-4">
+                            <i class= "fas fa-laptop fa-3x col-2"></i>
+                            <div class="col 6 text-center">
+                              <h5 class="mb-0">C#</h5>
+                   
+                            </div>
+  
+  
+                          </li>
+
+                        </li>
+                        <li>
+                          <li class="row text-center my-4 gap-4">
+                            <i class= "fas fa-bug fa-3x col-2"></i>
+                            <div class="col 6 text-center">
+                              <h5 class="mb-0">Debugging</h5>
+                             
+                            </div>
+  
+  
+                          </li>
+
+                        </li>
+                        <li>
+                          <li class="row text-center my-4 gap-4">
+                            <i class= "fas fa-tools fa-3x col-2"></i>
+                            <div class="col 6 text-center">
+                              <h5 class="mb-0">UnitTesting</h5>
+                            
+                            </div>
+  
+  
+                          </li>
+
+                        </li>
+                        <li>
+                          <li class="row text-center my-4 gap-4">
+                            <i class= "fas fa-cloud fa-3x col-2"></i>
+                            <div class="col 6 text-center">
+                              <h5 class="mb-0">Azure</h5>
+                  
+                            </div>
+  
+  
+                          </li>
+
+                        </li>
+                        <li>
+                          <li class="row text-center my-4 gap-4">
+                            <i class= "fas fa-tape fa-3x col-2"></i>
+                            <div class="col 6 text-center">
+                              <h5 class="mb-0">API</h5>
+                             
+                            </div>
+  
+  
+                          </li>
+
+                        </li>
+
+
+
+                      </ul>
+                      <button type= "button" class= "btn btn-lg btn-primary mt-5 w-100" data-bs-dimiss="modal">Close</button></button>
+
+
+
+                    
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+      
+            <!-- <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
+          </p>
+        </div>
+      </div>
+    </section>
+    
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                  dy=".3em">SocialMediaAPI</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">Built a SocialMediaAPI showing relationship between Post,Reply,Comments and Delete Tables.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      <a href="https://github.com/KRoseCodes1/SocialMedia/" target="_blank">View</i></a>
+                    </button>
+
+                  </div>
+                  <small class="text-muted">Project</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                  dy=".3em">EmployeeDataAPI</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">EmployeeData shows relationship between Employees, Locations, Benefits and Positions in an  organization.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      <a href="https://github.com/KRoseCodes1/EmployeeData/"target = "_blank">View</i></a>
+                    </button>
+                  </div>
+                  <small class="text-muted">project</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                  dy=".3em">ConsoleGame</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text"> An interactive ConsoleGame that ask you questions and you answer and get scorces </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      <a href="https://github.com/Olaniyiatanda/Consolegame/"target = "_blank">Veiw</i></a>
+                    </button>
+                  </div>
+                  <small class="text-muted">Project</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="text-muted py-5">
+    <div class="container">
+      <p class="float-right mb-1">
+        <a href="#">Back to top</a>
+      </p>
+      <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+      <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a
+          href="/docs/5.0/getting-started/introduction/">getting started guide</a>.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
